@@ -4,6 +4,9 @@
  */
 package clases;
 
+import Fly.FlyBehavior;
+import Quack.QuackBehavior;
+
 /**
  *
  * @author rosales1015
@@ -12,6 +15,16 @@ public abstract class Duck {
     
     public Duck(){}
     
+    QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+    
+    public void performQuack(){
+        quackBehavior.Quack();
+    }
+    
+    public void performFly(){
+        flyBehavior.Fly();
+    }
            
     public String Swim(){
         return "Display";
