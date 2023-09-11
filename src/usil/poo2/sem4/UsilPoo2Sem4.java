@@ -4,8 +4,10 @@
  */
 package usil.poo2.sem4;
 
+import Fly.FlyRocketPowered;
 import clases.Duck;
 import clases.MaliarDuck;
+import clases.ModelDuck;
 
 /**
  *
@@ -20,6 +22,13 @@ public class UsilPoo2Sem4 {
         Duck maliard = new MaliarDuck();
         maliard.performQuack();
         maliard.performFly();
+        
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
+        
+        
         
     }
     
