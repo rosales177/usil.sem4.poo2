@@ -10,4 +10,5 @@ DESARROLLO DE PREGUNTAS
    - Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos    en una clase separada y hacer sus objetos intercambiables.
 6. ¿Cuántos principios de diseño se aplicaron?
 7. ¿Por qué se crearon las interfaces FlyBehavior y QuackBehavior?
-8. ¿Por qué se dice que el cambio del comportamiento de un pato puede ser en 6empo de ejecución?
+   - Para realizar una encapsulación de otras clases .
+9. ¿Por qué se dice que el cambio del comportamiento de un pato puede ser en 6empo de ejecución?
