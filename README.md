@@ -11,4 +11,5 @@ DESARROLLO DE PREGUNTAS
 6. ¿Cuántos principios de diseño se aplicaron?
 7. ¿Por qué se crearon las interfaces FlyBehavior y QuackBehavior?
    - Para realizar una encapsulación de otras clases .
-9. ¿Por qué se dice que el cambio del comportamiento de un pato puede ser en 6empo de ejecución?
+9. ¿Por qué se dice que el cambio del comportamiento de un pato puede ser en tiempo de ejecución?
+    - 
