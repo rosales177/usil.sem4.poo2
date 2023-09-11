@@ -11,6 +11,6 @@ package Fly;
 public interface FlyBehavior {
     
     
-    public abstract String Fly();
+    public abstract void Fly();
     
 }

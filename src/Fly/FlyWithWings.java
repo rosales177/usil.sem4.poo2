@@ -11,7 +11,8 @@ package Fly;
 public class FlyWithWings implements FlyBehavior {
    
    @Override
-   public String Fly(){
-       return "Fly";
+   public void Fly(){
+       System.err.println("I'm flying");
+
    }
 }

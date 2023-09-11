@@ -12,27 +12,23 @@ import Quack.QuackBehavior;
  * @author rosales1015
  */
 public abstract class Duck {
-    
-    public Duck(){}
-    
+   
     QuackBehavior quackBehavior;
     FlyBehavior flyBehavior;
     
-    public void performQuack(){
-        quackBehavior.Quack();
-    }
+    public Duck(){}
+    
+    public abstract void Display();
     
     public void performFly(){
         flyBehavior.Fly();
     }
-           
+    
+    public void performQuack(){
+        quackBehavior.Quack();
+    }
+          
     public String Swim(){
         return "Display";
-    }
-    
-    public String Display(){
-        return "Duck";
-    }
-   
-    
+    } 
 }

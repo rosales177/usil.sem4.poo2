@@ -11,8 +11,8 @@ package Quack;
 public class Squeak implements QuackBehavior {
     
     @Override
-    public String Quack(){
-        return "Squeak";
+    public void Quack(){
+        System.out.println("Squeak");
     }
     
 }

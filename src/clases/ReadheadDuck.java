@@ -4,27 +4,24 @@
  */
 package clases;
 
-import Interface.Flyable;
-import Interface.Quackable;
+import Fly.FlyWithWings;
+import Quack.Quack;
 
 /**
  *
  * @author rosales1015
  */
-public class ReadheadDuck extends Duck implements Quackable, Flyable {
-    
-    @Override
-    public String Display(){
-       return "ReadheadDuck";
+public class ReadheadDuck extends Duck  {
+
+    public ReadheadDuck(){
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
     }
     
     @Override
-    public String Fly(){
-        return "Fly";
+    public void Display(){
+       System.out.println("I'm ReadheadDuck");
     }
     
-    @Override
-    public String Quack(){
-        return "Quack";
-    }
+
 }

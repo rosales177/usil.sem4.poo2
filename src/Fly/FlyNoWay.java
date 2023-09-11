@@ -10,7 +10,7 @@ package Fly;
  */
 public class FlyNoWay implements FlyBehavior {
    @Override
-   public String Fly(){
-       return "Cant Fly";
+   public void Fly(){
+       System.err.println("I Can't fly");
    }
 }

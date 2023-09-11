@@ -4,29 +4,24 @@
  */
 package clases;
 
-import Interface.Flyable;
-import Interface.Quackable;
+import Fly.FlyWithWings;
+import Quack.Quack;
 
 /**
  *
  * @author rosales1015
  */
-public class MaliarDuck extends Duck implements Flyable, Quackable {
+public class MaliarDuck extends Duck{
     
-    @Override
-    public String Display(){
-       return "MaliarDuck";
+    
+    public MaliarDuck(){
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
     }
-    
+   
     @Override
-    public String Fly(){
-        return "Fly";
+    public void Display(){
+       System.out.println("I'm Maliar Duck");
     }
-    
-    @Override
-    public String Quack(){
-        return "Quack";
-    }
-    
     
 }

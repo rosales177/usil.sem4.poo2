@@ -10,6 +10,6 @@ package Quack;
  */
 public interface QuackBehavior {
     
-    public abstract String Quack();
+    public abstract void Quack();
     
 }

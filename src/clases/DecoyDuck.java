@@ -11,8 +11,8 @@ package clases;
 public class DecoyDuck extends Duck {
     
     @Override
-    public String Display(){
-        return "Decoy Duck";
+    public void Display(){
+        System.out.println("I'm DecoyDuck");
     }
     
 }
