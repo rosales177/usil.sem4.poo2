@@ -1,5 +1,11 @@
 # Actividad 02 - Semana 04: Patrones de Diseño
 
+## INTEGRANTES
+### HENRY DANIEL PILLPE LAGOS
+### GERALDO ONEIL ROSALES POMA
+### IAMILE ARIANA SOFIA HURTADO CAÑIHUA
+### MANUEL FELIPE ZEGARRA SOTIL
+
 DESARROLLO DE PREGUNTAS
 
 1. ¿Qué patron de diseño aplicaste para resolver el caso del app SimUDuck?
