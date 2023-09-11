@@ -12,4 +12,5 @@ DESARROLLO DE PREGUNTAS
 7. ¿Por qué se crearon las interfaces FlyBehavior y QuackBehavior?
    - Las interfaces FlyBehavior y QuackBehavior se crearon para promover la flexibilidad, la reutilización del código y la separación de preocupaciones en el diseño de "SimUDuck". Estas interfaces permiten que los comportamientos de vuelo y graznido sean fácilmente configurables y cambiables sin afectar las clases de patos concretos, lo que hace que el código sea más mantenible y extensible.
 9. ¿Por qué se dice que el cambio del comportamiento de un pato puede ser en tiempo de ejecución?
+   - La capacidad de cambiar dinámicamente el comportamiento de un pato en tiempo de ejecución es una característica importante del patrón "Strategy" en "SimUDuck". 
      
